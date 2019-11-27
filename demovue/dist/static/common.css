@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100px;
+}
+
+
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+body{
+	width: 7.5rem;
+	position: relative;
+	left: 50%;
+	margin-left: -3.75rem;
+	background: url(@/src/assets/images/bg2.jpg) no-repeat;
+	background-size: 7.5rem 100%;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.logo {
+	width: 1.81rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.29rem;
+	left: 0.23rem;
+}
+.loading,.theme,.girl,.woman,.pageend,#app,.girlend,.womanend{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+.idx_btn{
+	width: 1.09rem;
+	height: 3.21rem;
+	position: absolute;
+	left: 6.5rem;
+	top: 1.93rem;
+	
+}
+.theme{
+  
+ 	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.theme_NR{
+	width: 5.26rem;
+	height: 2.85rem;
+	position: absolute;
+	top: 0.83rem;
+	left: 1.08rem;
+}
+.theme_LZ{
+	width: 1.44rem;
+	height: 4.65rem;
+	position: absolute;
+	left: 0;
+	top: 1.61rem;
+}
+.theme_YY{
+	width: 6.62rem;
+	height: 1.0rem;
+	position: absolute;
+	bottom: 1.17rem;
+	left: 0.26rem;
+}
+.theme_RW{
+	width: 4.72rem;
+	height: 5.86rem;
+	position: absolute;
+	left: 1.65rem;
+	bottom: 1.35rem;	
+}
+.theme_HH{
+	width: 1.30rem;
+	height: 1.16rem;
+	position: absolute;
+	right: 0.74rem;
+	bottom: 1.75rem;
+}
+.btn_37{
+	width: 2.62rem;
+	height: 0.91rem;
+	position: absolute;
+	bottom: 0.36rem;
+	left: 0.74rem;
+}
+.btn_38{
+	width: 2.5rem;
+	height: 0.87rem;
+	position: absolute;
+	bottom: 0.36rem;
+	right: 0.74rem;
+}
+.SQ_NR{
+		width: 5.09rem;
+		height: 7.31rem;
+		position: absolute;
+		/*top: 1.2rem;*/
+		bottom: 2.56rem;
+		left: 0.93rem;
+		
+	}
+	.SQ_RW,.SQ_RW2{
+		width: 3.38rem;
+		height: 4.98rem;
+		position: absolute;
+		bottom: 1.52rem;
+		left: 1.82rem;
+		
+	}
+	.SQ_BZ,
+	.WM_BZ{
+		/* background: url(../src/assets/images/bg2.jpg) no-repeat; */
+		z-index: 100;
+	}
+	.SQ_YY{
+		width: 6.29rem;
+		height: 1.48rem;
+		position: absolute;
+		left: 0.65rem;
+		/*top: 8.93rem;*/
+		bottom: 0.68rem;
+	}
+	.SQ_TS{
+		width: 2.68rem;
+		height: 2.11rem;
+		position: absolute;
+		right: 0.26rem;
+		bottom: 0.18rem;
+	}
+	.zhao_girl,.zhao_wm,.zhao_end,.zhao_girl2,.zhao_wm2{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.82);
+	}
+	.zhao_girl_wz,.zhao_wm_wz{
+		width: 5.07rem;
+		height: 7.30rem;
+		position: absolute;
+		top: 1.42rem;
+		left: 1.26rem;
+	}
+	.zhao_girl_rw,.zhao_wm_rw{
+		width: 2.57rem;
+		height: 3.94rem;
+		position: absolute;
+		left: 2.35rem;
+		top: 2.45rem;
+	}
+	.zhao_end_dz{
+		width: 5.54rem;
+		height: 7.58rem;
+		position: absolute;
+		top: 1.9rem;
+		left: 0.86rem;
+	}
+	.zhao_end_X{
+		width: 1.37rem;
+		height: 1.24rem;
+		position: absolute;
+		top: 1.73rem;
+		left: 4.95rem;		
+		z-index: 100;
+	}
+	.zhao_end_shzh{
+		width: 2.21rem;
+		height: 0.86rem;
+		position: absolute;
+		top: 2.36rem;
+		left: 2.0rem;		
+		z-index: 100;
+	}
+	.zhao_end_NR{
+		width: 4.09rem;
+		height: 7.76rem;
+		position: absolute;
+		top: 2.58rem;
+		left: 1.75rem;		
+	}
+	
+
+	.end_NR{
+		width: 5.56rem;
+		height: 7.43rem;
+		position: absolute;
+		/*top: 1.05rem;*/
+		bottom: 2.52rem;
+		left: 0.78rem;
+	}
+	.end_RW{
+		width: 4.83rem;
+		height: 6.42rem;
+		position: absolute;
+		/*top: 2.5rem;*/
+		bottom: 2.03rem;
+		left: 1.4rem;
+	}
+	.end_YY{
+		width: 6rem;
+		height: 1.01rem;
+		position: absolute;
+		/*top: 8.5rem;*/
+		bottom: 1.58rem;
+		left: 0.58rem;
+	}
+	.end_HH{
+		width: 1.38rem;
+		height: 1.23rem;
+		position: absolute;
+		right: 0.35rem;
+		bottom: 2.17rem;
+	}
+	.end_ZHD{
+		width: 2.45rem;
+		height: 0.81rem;
+		position: absolute;
+		bottom: 1.12rem;
+		left: 0.8rem;
+	}
+	.end_DZ{
+		width: 2.51rem;
+		height: 0.8rem;
+		position: absolute;
+		bottom: 1.12rem;
+		right: 0.68rem;
+	}
+	.end_Pj{
+		width: 100%;
+		height: 0.27rem;
+		position: absolute;
+		bottom: 0.49rem;
+		left: 0;
+		text-align: center;
+		color: #0652a4;
+		font-size: 0.27rem;
+	}
+	.end_Pj2{
+		width: 100%;
+		height: 0.18rem;
+		position: absolute;
+		bottom: 0.16rem;
+		left: 0;
+		text-align: center;
+		color: #545454;
+		font-size: 0.18rem;
+	}
+	
+	
+	
+	
+	.WM_NR{
+		width: 4.82rem;
+		height: 5.99rem;
+		position: absolute;
+		/*top: 1.08rem;*/
+		bottom: 4rem;
+		left: 1.2rem;
+	}
+	.WM_RW,.WM_RW2{
+		width: 5.95rem;
+		height: 5.67rem;
+		position: absolute;
+		/*top: 4.06rem;*/
+		bottom: 1.6rem;
+		left: 0.79rem;
+	}
+	.WM_TS{
+		width: 2.67rem;
+		height: 1.88rem;
+		position: absolute;
+		bottom: 0.11rem;
+		right: 0.28rem;
+	}
+	
