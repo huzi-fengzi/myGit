@@ -1,5 +1,7 @@
+// 导航栏产品页切换
  $("#products").on({
    "click":function(){
+	   console.log("sssss")
 	  $(".product_1").toggle()
    }
 })
@@ -18,3 +20,23 @@ $(function(){
         }
     });
 })
+// 顶部导航悬浮,滚动后背景变色
+$(window).scroll(function() {
+	var oHeader=document.getElementById("header");
+	var scrolls = $(this).scrollTop(); //获取当前可视区域距离页面顶端的距离
+	if(scrolls >0) { //当B>A时，表示页面在向下滑动			
+		$("#header").addClass("scrol_down_bg")
+		$(".header_nav_innerL").addClass("scrol_down_cl")
+		$(".header_nav_list").addClass("header_nav_list_down")
+		$(".products1").addClass("products1_down")		
+		$(".product_1").addClass("product_2");
+	// console.log(scrolls)
+	} else { 		
+		$("#header").removeClass("scrol_down_bg");
+		$(".header_nav_innerL").removeClass("scrol_down_cl")
+		$(".header_nav_list").removeClass("header_nav_list_down")
+		$(".products1").removeClass("products1_down")
+		$(".product_1").removeClass("product_2");	
+	}
+		
+});

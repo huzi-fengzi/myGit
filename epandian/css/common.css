@@ -24,6 +24,7 @@ body {
 	font-family: "微软雅黑";
 	color: #888888;
 	background: #fff;
+	position: relative;
 }
 ul,li{
 	list-style: none;
@@ -49,73 +50,9 @@ a{
 	background: url(../img/product_header_bg.jpg) no-repeat center center;
 	background-size: cover;
 }
-.header_nav_inner,.header_banner{
+.header_banner{
 	width: 1200px;
 	margin: 0 auto;
-}
-.header_nav{
-	width: 100%;
-}
-.header_nav{
-	height: 60px;
-	border-bottom: 1px solid #999999;
-	box-sizing: border-box;
-	color: #FFFFFF;
-}
-.header_nav_inner{
-	line-height: 60px;
-}
-.logo{
-	width: 112px;
-	height: 42px;
-	margin-top: 9px;
-	margin-right: 12px;
-}
-.header_nav_list{
-	margin-left: 76px;
-	font-size: 14px;
-	
-}
-.header_nav_list a{
-	float: left;
-	width: 116px;
-	color: #FFFFFF;
-	box-sizing: border-box;
-}
-.header_nav_list a:nth-child(4){
-	width: 103px;
-}
-.header_nav_list span{
-	display: inline-block;
-	height: 60px;
-	box-sizing: border-box;
-	padding-left: 6px;
-	
-}
-.header_nav_list>a:hover span{
-	border-bottom: 2px solid #33cccc;
-}
-.header_nav_list2{
-	height: 24px;
-	margin-top: 18px;
-	box-sizing: border-box;
-	font-size: 12px;
-}
-.header_nav_list2 a{
-	float: left;
-	height: 22px;
-	border: 1px solid #33CCCC;
-	line-height: 22px;
-	padding: 0 6px;
-	color: #33CCCC;
-	margin-left: 34px;		
-}
-.header_nav_list2 a:nth-child(1){
-	margin-left: 0;
-}
-.header_nav_list2 a:hover{
-	background: #33CCCC;
-	color: #fff;
 }
 .header_banner{
 	color: #FFFFFF;
@@ -148,43 +85,7 @@ a{
 .header_banner_b li:last-child{
 	margin-right: 0px;
 }
-/* 产品二级页面 */
-.products1{
-	position: relative;
-	height: 60px;
-	width: 116px;
-	display: inline-block;
-	float: left;
-	cursor: pointer;
-}
-.actic{
-	border-bottom: 2px solid #33cccc;
-}
-.products1:hover span{
-	border-bottom: 2px solid #33cccc;
-}
-.product_1{
-	position: absolute;
-	width: 108px;
-	height: 80px;
-	left: 0;
-	bottom:-79px;
-	display: none;
-	cursor: pointer;
-}
-.product_1 a{
-	width: 108px;
-	height: 40px;
-	border-top: 1px solid #999999;
-	background: #4c4d52;
-	box-sizing: border-box;
-	line-height: 40px;
-	padding-left: 10px;
-	font-size: 12px;
-}
-.product_1 a:hover{
-	color: #33CCCC;
-}
+
 /* footer */
 .footer_inner,
 .footer_inner_bottom{
@@ -250,7 +151,7 @@ a{
 	color: #FFFFFF;
 	margin-top: 18px;
 }
-
+/* 短横杠 */
 .duang{
 	width: 40px;
 	height: 4px;
@@ -272,4 +173,154 @@ a{
     background: -moz-linear-gradient(right, transparent, #fff 55%);
     background: linear-gradient(to right, transparent, #fff 55%);
 }
+
+/* 顶部导航悬浮 */
+.header_nav{
+	width: 100%;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.header_nav{
+	height: 60px;
+	/* border-bottom: 1px solid #999999; */
+	box-shadow: 0 0 5px #eee;
+	box-sizing: border-box;
+	/* color: #FFFFFF;	 */
+	position: fixed;
+	top: 0;
+	/* background: rgba(255,255,255,:;.5);*/
+	background: none;
+	z-index: 100;
+}
+
+.header_nav_inner{
+	line-height: 60px;
+	height: 60px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo{
+	width: 112px;
+	height: 42px;
+	margin-top: 9px;
+	margin-right: 12px;
+}
+.header_nav_list{
+	margin-left: 76px;
+	font-size: 14px;
+	
+}
+.header_nav_list a{
+	float: left;
+	width: 116px;
+	color: #FFFFFF;
+	box-sizing: border-box;
+}
+.header_nav_list_down a{
+	color: #000000;
+}
+.header_nav_list a:nth-child(4){
+	width: 103px;
+}
+.header_nav_list span{
+	display: inline-block;
+	height: 60px;
+	box-sizing: border-box;
+	padding-left: 6px;
+	
+}
+.header_nav_list>a:hover span{
+	border-bottom: 2px solid #33cccc;
+}
+.header_nav_list2{
+	height: 24px;
+	margin-top: 18px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+.header_nav_list2 a{
+	float: left;
+	height: 22px;
+	border: 1px solid #33CCCC;
+	line-height: 22px;
+	padding: 0 6px;
+	color: #33CCCC;
+	margin-left: 34px;		
+}
+.header_nav_list2 a:nth-child(1){
+	margin-left: 0;
+}
+.header_nav_list2 a:hover{
+	background: #33CCCC;
+	color: #fff;
+}
+
+.header_nav_innerL{
+	color: #FFFFFF;
+}
+
+/* 产品二级页面 */
+.products1{
+	position: relative;
+	height: 60px;
+	width: 116px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.actic{
+	border-bottom: 2px solid #33cccc;
+}
+.products1:hover span{
+	border-bottom: 2px solid #33cccc;
+}
+.product_1{
+	position: absolute;
+	width: 108px;
+	height: 80px;
+	left: 0;
+	bottom:-79px;
+	display: none;
+	cursor: pointer;
+	/* z-index: 101; */
+}
+.product_1 a{
+	width: 108px;
+	height: 40px;
+	border-top: 1px solid #999999;
+	background: rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.product_1 a{
+	color: #ffffff;
+}
+.product_2 a{
+	color: #000000;
+}
+.product_1 a:hover{
+	color: #33CCCC;
+}
+.product_2 a:hover{
+	color: #33CCCC;
+}
+.products1>span{
+	color: #FFFFFF;
+}
+.products1_down>span{
+	color: #000000;
+}
+
+.scrol_down_bg{
+	background: rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px #eee;
+	border-bottom: 0;
+}
+.scrol_down_cl{
+	color:#000000;
+}
+
+
 
