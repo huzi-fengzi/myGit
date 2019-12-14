@@ -1,3 +1,7 @@
+.header{
+	background: url(../img/product_header_bg.jpg) no-repeat center center;
+	background-size: cover;
+}
 .main_inner1_inner,
 .main_inner2_top,
 .main_inner2_bottom,

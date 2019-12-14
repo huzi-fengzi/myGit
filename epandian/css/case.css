@@ -1,14 +1,26 @@
+.header{
+	background: url(../img/case_header_bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+.header_banner{
+	color: #FFFFFF;
+	height: 414px;
+	padding-top: 276px;
+}
 .header_banner_h{
 	text-align: center;
 	font-size: 38px;
-	margin-top: 208px;
+	line-height: 38px;
 	margin-bottom: 36px;
 }
 .header_banner_b2{
 	font-size: 18px;
+	line-height: 18px;
 	text-align: center;
 }
-
+.main{
+	overflow: visible;
+}
 .main_inner2_bottom,
 .main_inner1_bottom{
 	width: 1200px;
@@ -137,16 +149,41 @@ h4{
 	margin-bottom: 88px;
 }
 .main_inner3{
-	height: 766px;
+	min-height: 1087px;
 	text-align: center;
 }
+.mian_inner3_b{
+	width: 1200px;
+	margin: 0 auto;
+	height: 630px;
+	overflow: hidden;
+}
+.mian_inner3_b>img{
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 28px;
+}
 .main_inner3 h3{
-	padding-top: 91px;
+	padding-top: 115px;
 }
 .main_inner3 h4{
 	margin-top: 22px;
-	margin-bottom: 89px;
+	margin-bottom: 72px;
 }
-.main_inner3 img{
-	margin: 0 auto;
+.mian_inner3_btn{	
+	width: 210px;
+	height: 68px;
+	border: none;
+	margin: 64px auto 78px;
+	cursor: pointer;
+}
+.mian_inner3_btn1{
+	background: url(../img/logo_gd.jpg) no-repeat;
+	background-size: 100%;
+	display: block;
+}
+.mian_inner3_btn2{
+	background: url(../img/logo_gd2.jpg) no-repeat;
+	background-size: 100%;
+	display: none;
 }

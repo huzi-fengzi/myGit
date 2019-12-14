@@ -40,3 +40,33 @@ $(window).scroll(function() {
 	}
 		
 });
+// 首页及案例页合作商家按钮事件
+ $(".mian_inner3_btn1").on({
+   "click":function(){	   
+	  $(".mian_inner3_b").css({
+		  "height":"882px"
+	  })
+	  $(".mian_inner3_b").css({
+	  		  "height":"882px"
+	  })
+	  $(".mian_inner3_btn1").css({
+	  		  "display":"none"
+	  })
+	  $(".mian_inner3_btn2").css({
+	  		  "display":"block"
+	  })
+   }
+})
+$(".mian_inner3_btn2").on({
+   "click":function(){	
+	  $(".mian_inner3_b").css({
+		  "height":"630px"
+	  })
+	  $(".mian_inner3_btn2").css({
+	  	  "display":"none"
+	  })
+	  $(".mian_inner3_btn1").css({
+	  	  "display":"block"
+	  })
+	}
+})

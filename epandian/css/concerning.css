@@ -1,11 +1,21 @@
+.header{
+	background: url(../img/coucerning_header_bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+.header_banner{
+	color: #FFFFFF;
+	height: 414px;
+	padding-top: 276px;
+}
 .header_banner_h{
 	text-align: center;
 	font-size: 38px;
-	margin-top: 208px;
+	line-height: 38px;
 	margin-bottom: 36px;
 }
 .header_banner_b2{
 	font-size: 18px;
+	line-height: 18px;
 	text-align: center;
 }
 .main_inner2_bottom,
@@ -242,6 +252,7 @@ h4{
 }
 .main_inner5_bottoms a{
 	color: #FFFFFF;
+	height: 62px;
 }
 .main_inner5_bottoms:hover{
 	background: #33CCCC;

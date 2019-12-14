@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 body {
 	font-size: 14px;
 	line-height: 14px;
-	font-family: "微软雅黑";
+	font-family:arial,"微软雅黑";
 	color: #888888;
 	background: #fff;
 	position: relative;
@@ -47,8 +47,6 @@ a{
 }
 .header{
 	height: 690px;
-	background: url(../img/product_header_bg.jpg) no-repeat center center;
-	background-size: cover;
 }
 .header_banner{
 	width: 1200px;
@@ -56,12 +54,13 @@ a{
 }
 .header_banner{
 	color: #FFFFFF;
-	height: 620px;
+	height: 404px;
+	padding-top: 286px;
 }
 .header_banner_h{
 	text-align: center;
 	font-size: 38px;
-	margin-top: 215px;
+	line-height: 38px;
 	margin-bottom: 51px;
 }
 .header_banner_h span{
@@ -93,14 +92,25 @@ a{
 	margin: 0 auto;
 }
 .footer{
-	height: 514px;
+	height: 550px;
 	background: url(../img/product_footer_bg.jpg) no-repeat center center;
 	background-size: cover;
 }
 .footer_inner{
 	padding-top: 133px;
 	height: 280px;
-	margin-bottom: 76px;
+	margin-bottom: 70px;
+}
+.footer_inner_center{
+	text-align: center;
+}
+.footer_inner_center>a{
+	display: inline-block;
+	font-size: 14px;
+	color: #888888;
+	line-height: 14px;
+	padding: 0 18px;
+	margin-bottom: 20px;
 }
 .footer_inner_bottom{
 	text-align: center;
