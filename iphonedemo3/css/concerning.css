@@ -23,7 +23,7 @@
 
 .main_inner1 {
 	min-height: 6.94rem;
-	min-height: 1000rem;
+	max-height: 1000rem;
 	/* width: 7.5rem; */
 	border-bottom: 0.16rem solid #f6f6f6;
 	padding-bottom: 0.94rem;
@@ -55,6 +55,7 @@
 }
 
 .main_inner1>p {
+	display: block;
 	font-size: 0.24rem;
 	 text-size-adjust: none;
 	line-height: 0.44rem;
@@ -89,6 +90,7 @@
 }
 
 .main_inner2>p {
+	display: block;
 	font-size: 0.24rem;
 	 text-size-adjust: none;
 	line-height: 0.44rem;
