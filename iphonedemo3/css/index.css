@@ -137,7 +137,7 @@
 	margin: 0 auto;
 }
 
-.main_inner2_bottom>div {
+.main_inner2_bottom>.left {
     width: 3.35rem;
     height: 3.5rem;	
     box-sizing: border-box;
@@ -149,30 +149,30 @@
 	margin-bottom: 0.45rem;
 	border: 0.05rem solid #f6f6f6;
 }
-.main_inner2_bottom>div:nth-child(2n+1){
+.main_inner2_bottom>.left:nth-child(2n+1){
 	margin-right: 0.17rem;
 }
-.main_inner2_bottom>div>div{
+.left_t{
 	border: 0.05rem solid #f6f6f6;
 	border-bottom: none;
 	height: 1.88rem;
 	box-sizing: border-box;
 	border-radius: 0.1rem;
 }
-.main_inner2_bottom>div>div>div{
+.left_t>div{
 	height: 0.97rem;
 	box-sizing: border-box;	
 	position: relative;
 }
 
-.main_inner2_bottom>div>div>div>img {
+.left_t>div>img {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
     width: 0.54rem;
 	margin-left: -0.27rem;
 }
-.main_inner2_bottom>div>div>h3 {  
+.left_t>h3 {  
      color: #333333; 
 	 margin-top: 0.29rem;
 	 margin-bottom: 0.26rem;
@@ -182,10 +182,11 @@
 .duangang{
 	margin-bottom: 0.12rem;
 }
-.main_inner2_bottom>div>p {
+.left_b {
    font-size: 0.22rem;
    line-height: 0.36rem;
-   padding: 0.13rem 0.42rem;
+   /* padding: 0.13rem 0.42rem; */
+   padding-top: 0.13rem;
    box-sizing: border-box;
    border: 0.05rem solid #33CCCC;
    border-top: none;
