@@ -51,12 +51,12 @@ body{
 	height: 0.62rem;
 	margin: 0.18rem 0.93rem 0 0.31rem
 }
-.header_tel{
+#header .header_tel{
 	width: 2.64rem;
 	height: 0.98rem;
 	line-height: 0.98rem;
 	font-size: 0.38rem;
-	color: #33CCCC !important ;
+	color: #33CCCC !important;
 }
 
 .menu{
