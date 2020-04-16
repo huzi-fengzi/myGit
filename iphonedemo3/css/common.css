@@ -51,6 +51,10 @@ body{
 	height: 0.62rem;
 	margin: 0.18rem 0.93rem 0 0.31rem
 }
+.logo img{
+	width: 1.64rem;
+	height: 0.62rem;
+}
 .header_tel{
 	width: 2.64rem;
 	height: 0.98rem;
@@ -123,13 +127,13 @@ body{
 	background-size: 0.32rem 0.32rem;
 }
 .menu_list a:nth-child(7) li{
+	background: url(../img/menu-bg7a.png) no-repeat 0.45rem center;
+	background-size: 0.36rem 0.36rem;
+}
+.menu_list a:nth-child(8) li{
 	background: url(../img/menu-bg8a.png) no-repeat 0.45rem center;
 	background-size: 0.36rem 0.36rem;
 }
-/* .menu_list a:nth-child(8) li{
-	background: url(../img/menu-bg8a.png) no-repeat 0.45rem center;
-	background-size: 0.36rem 0.36rem;
-} */
 .menu_list .menu_active{
 	color: #33cccc;	
 }

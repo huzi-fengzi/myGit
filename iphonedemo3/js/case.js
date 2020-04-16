@@ -55,7 +55,7 @@ function submitForm2() {
 		success: function(data) {
 			var dataList=data.data
 			for(var i=0;i<dataList.length;i++){	
-			var	str="<img src='"+ dataList[i].photoUrl +"'><div class='swi_bottom'><p class='left'>"+ dataList[i].title +"</p><a class='right' href='news.html?id="+ dataList[i].id +"'>了解更多>></a></div>"
+			var	str="<a href='news.html?id="+ dataList[i].id +"'><img src='"+ dataList[i].photoUrl +"'></a><div class='swi_bottom'><p class='left'>"+ dataList[i].title +"</p><a class='right' href='news.html?id="+ dataList[i].id +"'>了解更多>></a></div>"
 			$(".main_inner1_bottom").find(".swiper-slide").eq(i).html(str)
 			}
 		},

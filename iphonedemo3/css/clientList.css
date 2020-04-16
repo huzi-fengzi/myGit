@@ -16,11 +16,16 @@
 	padding-top: 0.69rem;
 	padding-bottom: 1.42rem;
 }
-.main img{
+.main a{
 	width: 6.2rem;
 	height: 2rem;
 	margin: 0 auto;
 	margin-bottom: 0.3rem;
+}
+.main a img{
+	width: 6.2rem;
+	height: 2rem;
+	
 }
 .clientList{
 	width: 6.2rem;

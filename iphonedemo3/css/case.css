@@ -235,7 +235,7 @@
 	height: 3.94rem;
 	margin: 0 auto;
 }
-.main_inner2 >ul li{
+.main_inner2 >ul a{
 	width: 2.29rem;
 	height: 1.3rem;
 	float: left;
@@ -247,44 +247,45 @@
 	text-align: right;
 	padding-right: 0.3rem;
 	box-sizing: border-box;
+	color: #FFFFFF;
 }
-.main_inner2 >ul li:nth-child(1){
+.main_inner2 >ul a:nth-child(1){
 	background: url(../img/case_main2_1.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(2){
+.main_inner2 >ul a:nth-child(2){
 	background: url(../img/case_main2_2.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(3){
+.main_inner2 >ul a:nth-child(3){
 	background: url(../img/case_main2_3.png) no-repeat;
 	background-size: 2.28rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(4){
+.main_inner2 >ul a:nth-child(4){
 	background: url(../img/case_main2_4.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(5){
+.main_inner2 >ul a:nth-child(5){
 	background: url(../img/case_main2_5.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(6){
+.main_inner2 >ul a:nth-child(6){
 	background: url(../img/case_main2_6.png) no-repeat;
 	background-size: 2.28rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(7){
+.main_inner2 >ul a:nth-child(7){
 	background: url(../img/case_main2_7.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(8){
+.main_inner2 >ul a:nth-child(8){
 	background: url(../img/case_main2_8.png) no-repeat;
 	background-size: 2.29rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(9){
+.main_inner2 >ul a:nth-child(9){
 	background: url(../img/case_main2_9.png) no-repeat;
 	background-size: 2.28rem 1.3rem;
 }
-.main_inner2 >ul li:nth-child(3n){
+.main_inner2 >ul a:nth-child(3n){
 	margin-right: 0;
 	width: 2.28rem;
 }

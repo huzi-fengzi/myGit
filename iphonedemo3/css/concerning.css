@@ -114,7 +114,7 @@
 	text-align: center;
 	border-right: 0.01rem solid #bfbfbf;
 }
-.main_inner2>ul li:last-child {
+.ul_li:last-child {
 	border-right: 0;
 }
 
@@ -172,4 +172,26 @@
 	width: 6.45rem;
 	height: 5.6rem;
 	margin-left: 0.34rem;
+}
+.main_inner4_bottom{
+	/* width: 7.5rem; */
+	height: 5.89rem;
+	background: url(../img/concer_main4_1.png) no-repeat 0.35rem top;
+	background-size: 0.78rem 5.89rem;
+	padding-left: 1.4rem;
+	padding-top: 0.12rem;
+}
+.main_inner4_bottom>div{
+	height: 0.9rem;
+	margin-bottom: 0.14rem;
+}
+.main_inner4_bottom h3{
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color: #333333;
+}
+.main_inner4_bottom h4{
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	color: #666666;
 }
