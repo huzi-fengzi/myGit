@@ -24,7 +24,7 @@
 .main_inner1 {
 	min-height: 6.94rem;
 	max-height: 1000rem;
-	/* width: 7.5rem; */
+	width: 7.5rem;
 	border-bottom: 0.16rem solid #f6f6f6;
 	padding-bottom: 0.94rem;
 }
@@ -73,7 +73,7 @@
 }
 
 .main_inner2 {
-	/* width: 7.5rem; */
+	width: 7.5rem;
 	min-height: 8.22rem;
 	max-height: 1000rem;
 	border-bottom: 0.16rem solid #f6f6f6;
