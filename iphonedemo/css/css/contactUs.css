@@ -1,0 +1,73 @@
+.header_banner{
+	width: 7.5rem;
+	height: 4.4rem;
+	padding-top: 0.98rem;
+}
+.header_banner_T{
+	height: 4.4rem;
+	background: url(../img/header_bg4.jpg) no-repeat;
+	background-size: 100%;
+}
+.menu_list a:nth-child(6) li{
+	background: url(../img/menu-bg6b.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.32rem;
+}
+.main{
+	width: 7.5rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	width: 7.5rem;
+	box-sizing: border-box;
+	height: 16.46rem;
+}
+.main>h3{
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	color: #333333;
+}
+.main>h4{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	margin-top: 0.16rem;
+	margin-bottom: 0.42rem;
+	color: #666666;
+}
+.contact_bg{
+	height: 3.7rem;
+	background: url(../img/contact_bg.jpg) no-repeat center bottom;
+	background-size: 6.9rem 3.3rem;
+	border-top: 0.01rem solid #ebebeb;
+}
+.main>h2{
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	text-align: left;
+	margin-top: 0.5rem;
+	margin-bottom: 0.42rem;
+	color: #333333;
+}
+.main>h5{
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	text-align: left;
+	padding-bottom: 0.48rem;
+	color: #666666;
+	border-bottom: 0.01rem solid #ebebeb;
+	margin-bottom: 0.42rem;
+}
+.main>p{
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align: left;
+	color: #666666;
+}
+.main>img{
+	width: 7.5rem;
+	height: 4.08rem;
+	margin-top: ;
+	margin-bottom: ;
+	margin: 0.43rem 0 0 -0.3rem;
+}
