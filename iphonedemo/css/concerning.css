@@ -18,7 +18,7 @@
 .main {
 	width: 7.5rem;
 	min-height: 39.64rem;
-	max-height: 100rem;
+	max-height: 100000rem;
 }
 
 .main_inner1 {
@@ -29,6 +29,7 @@
 }
 
 .main_inner>h3 {
+	 text-size-adjust: none;
 	font-size: 0.36rem;
 	line-height: 0.36rem;
 	color: #333333;
@@ -36,6 +37,7 @@
 }
 
 .main_inner>h4 {
+	 text-size-adjust: none;
 	font-size: 0.22rem;
 	line-height: 0.22rem;
 	color: #666666;

@@ -51,12 +51,14 @@ body{
 	height: 0.62rem;
 	margin: 0.18rem 0.93rem 0 0.31rem
 }
-#header .header_tel{
+.header_tel{
 	width: 2.64rem;
 	height: 0.98rem;
-	line-height: 0.98rem;
+	/* line-height: 0.98rem;
 	font-size: 0.38rem;
-	color: #33CCCC !important;
+	color: #33CCCC !important; */
+	background: url(../img/tel_header.png) no-repeat left center;
+	background-size: 2.64rem 0.29rem;
 }
 
 .menu{
@@ -121,13 +123,13 @@ body{
 	background-size: 0.32rem 0.32rem;
 }
 .menu_list a:nth-child(7) li{
-	background: url(../img/menu-bg7a.png) no-repeat 0.45rem center;
-	background-size: 0.36rem 0.36rem;
-}
-.menu_list a:nth-child(8) li{
 	background: url(../img/menu-bg8a.png) no-repeat 0.45rem center;
 	background-size: 0.36rem 0.36rem;
 }
+/* .menu_list a:nth-child(8) li{
+	background: url(../img/menu-bg8a.png) no-repeat 0.45rem center;
+	background-size: 0.36rem 0.36rem;
+} */
 .menu_list .menu_active{
 	color: #33cccc;	
 }
