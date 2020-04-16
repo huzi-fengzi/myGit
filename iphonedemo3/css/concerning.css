@@ -30,7 +30,7 @@
 }
 
 .main_inner>h3 {
-	 text-size-adjust: none;
+	text-size-adjust: none;
 	font-size: 0.36rem;
 	line-height: 0.36rem;
 	color: #333333;
@@ -38,7 +38,7 @@
 }
 
 .main_inner>h4 {
-	 text-size-adjust: none;
+	text-size-adjust: none;
 	font-size: 0.22rem;
 	line-height: 0.22rem;
 	color: #666666;
@@ -54,10 +54,10 @@
 	margin-bottom: 1.0rem;
 }
 
-.main_inner1>p {
+.main .main_inner1>p {
 	display: block;
 	font-size: 0.24rem;
-	 text-size-adjust: none;
+	text-size-adjust: none;
 	line-height: 0.44rem;
 	color: #666666;
 	border-top: 0.01rem solid #ebebeb;
@@ -89,10 +89,10 @@
 	margin-bottom: 0.49rem;
 }
 
-.main_inner2>p {
+.main .main_inner2>p {
 	display: block;
 	font-size: 0.24rem;
-	 text-size-adjust: none;
+	text-size-adjust: none;
 	line-height: 0.44rem;
 	color: #666666;
 	border-top: 0.01rem solid #ebebeb;
@@ -112,9 +112,12 @@
 .main_inner2>ul li {
 	float: left;
 	width: 2.49rem;
+	height: 1.0rem;
 	text-align: center;
 	border-right: 0.01rem solid #bfbfbf;
 }
+
+
 
 .main_inner2>ul li:last-child {
 	border-right: 0;
