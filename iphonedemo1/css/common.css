@@ -1,0 +1,253 @@
+@font-face {
+	font-family: arial;
+	src: url('Arial.ttf');
+}
+.arial{
+	font-family:arial;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family:arial,"微软雅黑";
+}
+img,a{
+	border: 0;
+}
+img{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+ul,li{
+	list-style: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+html{
+	font-size: 100px;
+}
+body{
+	position: relative;
+}
+/* header start */
+.header{
+	width: 7.5rem;
+	height: 0.98rem;
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 100;
+}
+.logo{
+	width: 1.64rem;
+	height: 0.62rem;
+	margin: 0.18rem 0.93rem 0 0.31rem
+}
+#header .header_tel{
+	width: 2.64rem;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	font-size: 0.38rem;
+	color: #33CCCC !important;
+}
+
+.menu{
+	width: 0.5rem;
+	height: 0.34rem;
+	background: url(../img/menu.png) no-repeat;
+	background-size: 100%;
+	margin-top: 0.32rem;
+	margin-left: 1.04rem;
+	
+}
+.zhezhao{
+	display: none;
+	background: rgba(0,0,0,0.5);
+	width: 7.5rem;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	top: 0.98rem;
+	z-index: 101;
+}
+.menu_list{
+	width: 4.2rem;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	top: 0.98rem;
+	display: none;
+	background: #FFFFFF;
+	z-index: 102;
+}
+.menu_list li{
+	font-size: 0.28rem;
+	color: #333333;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	box-sizing: border-box;
+	padding-left: 1.2rem;
+}
+.menu_list a:nth-child(1) li{
+	background: url(../img/menu-bg1a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.32rem;
+}
+.menu_list a:nth-child(2) li{
+	background: url(../img/menu-bg2a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.31rem;
+}
+.menu_list a:nth-child(3) li{
+	background: url(../img/menu-bg3a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.34rem;
+}
+.menu_list a:nth-child(4) li{
+	background: url(../img/menu-bg4a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.34rem;
+}
+.menu_list a:nth-child(5) li{
+	background: url(../img/menu-bg5a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.32rem;
+}
+.menu_list a:nth-child(6) li{
+	background: url(../img/menu-bg6a.png) no-repeat 0.45rem center;
+	background-size: 0.32rem 0.32rem;
+}
+.menu_list a:nth-child(7) li{
+	background: url(../img/menu-bg7a.png) no-repeat 0.45rem center;
+	background-size: 0.36rem 0.36rem;
+}
+.menu_list a:nth-child(8) li{
+	background: url(../img/menu-bg8a.png) no-repeat 0.45rem center;
+	background-size: 0.36rem 0.36rem;
+}
+.menu_list .menu_active{
+	color: #33cccc;	
+}
+/* header end */
+/* 免费咨询及立即试用悬浮start */
+.fix_footer{
+	position: fixed;
+	bottom: 0;
+	width: 7.5rem;
+	height: 0.98rem;
+	font-size: 0.3rem;
+	line-height: 0.98rem;
+	background: #33cccc;
+	text-align: center;
+	z-index: 100;
+}
+.fix_footer a{
+	width: 3.74rem;
+	color: #FFFFFF;
+	float: left;
+}
+.fix_footer a:first-child{
+	width: 3.76rem;
+	padding-left: 1.5rem;
+	box-sizing: border-box;
+	text-align: left;
+	border-right: 0.02rem solid #FFFFFF;
+	background: url(../img/fix_tel.png) no-repeat 1.06rem center;
+	background-size: 0.33rem 0.4rem;
+}
+/* 免费咨询及立即试用悬浮end */
+.duangang{
+	width: 0.4rem;
+	height: 0.02rem;
+	background: #33CCCC;
+	margin: 0 auto;
+	display: block;
+}
+/* footer start */
+.footer{
+	width: 7.5rrem;
+	height: 8.26rem;
+	background: url(../img/footer_bg.jpg) no-repeat;
+	background-size: 100%;
+	font-size: 0.24rem;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	padding-top: 0.95rem;
+}
+.footer_EWM{
+	width: 4.4rem;
+	height: 2.34rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer_EWM .left,.footer_EWM .right{
+	width: 1.7rem;
+}
+.footer_EWM .left img,.footer_EWM .right img{
+	width: 1.7rem;
+}
+.footer_EWM .left p,.footer_EWM .right p{
+	margin-top: 0.36rem;
+	line-height: 0.24rem;
+}
+.footer_center{
+	width: 5.9rem;
+	height: 2.65rem;
+	line-height: 0.66rem;
+	margin: 0.62rem auto 0.77rem;
+}
+.footer_center a{
+	margin-right: 0.3rem;
+	float: left;
+}
+.footer_center li{
+	width: 2.8rem;
+	border-bottom: 0.01rem solid #646668;
+	box-sizing: border-box;
+	padding-left: 0.42rem;
+	background: url(../img/footer-jt.png) no-repeat 2.26rem center;
+	background-size: 0.12rem 0.2rem;
+	color: #FFFFFF;
+	
+}
+.footer_center a:nth-child(2n){
+	margin-right: 0;
+}
+.footer_bottom{
+	width: 7.5rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color:#fefefe ;
+	line-height: 0.28rem;
+	border-top: 0.01rem solid #323538;
+}
+.footer_bottom p{
+	
+}
+/* footer end */
+/* 立即试用 */
+.trial{
+	width: 2.4rem;
+	height: 0.88rem;
+	background: #33c8c9;
+	margin: 0 auto;
+	font-size: 0.28rem;
+	line-height: 0.88rem;
+	color: #FFFFFF;
+}
+
+/* 展开详情 */
+.about_active {
+	display: inline;
+}
+
+.about_hide {
+	display: none;
+}
+
+.about_btn1 {
+	color: #33c8c9;
+}
