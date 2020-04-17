@@ -261,6 +261,7 @@
 	height: 0.97rem;
 	box-sizing: border-box;
 	border: 0.01rem solid #d3d3d3;
+	border-bottom: 0.01rem solid #d3d3d3;
 	border-radius: 0.1rem;
 	margin-bottom: 0.19rem;
 	padding-left: 0.46rem;

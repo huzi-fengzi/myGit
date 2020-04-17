@@ -229,10 +229,9 @@ body{
 	color:#fefefe ;
 	line-height: 0.28rem;
 	border-top: 0.01rem solid #323538;
+	padding-top: 0.2rem;
 }
-.footer_bottom p{
-	
-}
+
 /* footer end */
 /* 立即试用 */
 .trial{
