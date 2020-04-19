@@ -36,8 +36,8 @@ $(window).scroll(function() {
 		$(".main_inner1_bottom").find(".left").eq(2).addClass("animated zoomIn")
 		$(".main_inner1_bottom").find(".left").eq(3).addClass("animated zoomIn")
 	} else if (scrollTop > 240 && scrollTop < 320) {
-		$(".main_inner2>h3").addClass("animated bounceInLeft")
-		$(".main_inner2>h4").addClass("animated bounceInRight")
+		$(".main_inner2>h3").addClass("animated fadeIn")
+		$(".main_inner2>h4").addClass("animated fadeIn")
 	} else if (scrollTop > 320 && scrollTop < 500) {
 		$(".main_inner2_bottom").find(".left").eq(0).addClass("animated zoomIn")
 		$(".main_inner2_bottom").find(".left").eq(1).addClass("animated zoomIn")
@@ -45,8 +45,8 @@ $(window).scroll(function() {
 		$(".main_inner2_bottom").find(".left").eq(2).addClass("animated zoomIn")
 		$(".main_inner2_bottom").find(".left").eq(3).addClass("animated zoomIn")
 	} else if (scrollTop > 740 && scrollTop < 820) {
-		$(".main_inner3>h3").addClass("animated bounceInLeft")
-		$(".main_inner3>h4").addClass("animated bounceInRight")
+		$(".main_inner3>h3").addClass("animated fadeIn")
+		$(".main_inner3>h4").addClass("animated fadeIn")
 	} else if (scrollTop > 820 && scrollTop < 1080) {
 		$(".main_inner3_bottom").find(".left").eq(0).addClass("animated zoomIn")
 		$(".main_inner3_bottom").find(".left").eq(1).addClass("animated zoomIn")
@@ -54,8 +54,8 @@ $(window).scroll(function() {
 		$(".main_inner3_bottom").find(".left").eq(2).addClass("animated zoomIn")
 		$(".main_inner3_bottom").find(".left").eq(3).addClass("animated zoomIn")
 	} else if (scrollTop > 1340 && scrollTop < 1440) {
-		$(".main_inner4>h3").addClass("animated bounceInLeft")
-		$(".main_inner4>h4").addClass("animated bounceInRight")
+		$(".main_inner4>h3").addClass("animated fadeIn")
+		$(".main_inner4>h4").addClass("animated fadeIn")
 	} else if (scrollTop > 1440 && scrollTop < 1560) {
 		$(".main_inner4>ul>li").eq(0).addClass("animated bounceInLeft")
 	} else if (scrollTop > 1560 && scrollTop < 1640) {

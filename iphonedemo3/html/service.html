@@ -115,7 +115,7 @@
 				<a href="https://www.epandian.com/h5/pages/register/register?spreadId=&fromAdSource=null" class="trial">立即试用</a>
 			</div>
 			<div class="main_inner main_inner4">
-					<h3>及时的服务相应机制</h3>
+					<h3>及时的服务响应机制</h3>
 					<img src="../img/service_main4_1.jpg" >
 					<h4>提供1小时内的服务请求响应</h4>
 					<p>简单问题2小时内答复，8小时内提供解决方案。</p>
@@ -164,7 +164,7 @@
 						<input type="email" name="email" id="email" placeholder="邮箱" />
 						
 						<textarea id="count" placeholder="内容"></textarea>
-						<button type="button" >立即提交</button>
+						<button type="button" onclick="submitForm()">立即提交</button>
 					</div>
 				</div>
 			
@@ -211,11 +211,82 @@
 				<p>© Copyright Reserved 2014-2019</p>
 				<p>京公网安备 11010802027809 号 | 京ICP备18053357号-1</p>
 			</div>
+			<div class="toast"></div>
 		</div>
 		<div style="width: 7.5rem;height: 0.98rem;background: #FFFFFF;"></div>
 		<!-- footer end -->
 		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="../js/swiper.min.js"></script>
 		<script src="../js/common.js"></script>
+		<script>
+			function submitForm() {
+			var fal = false;
+			var name = $("#name").val();
+			var phone = $("#tel").val();
+			var companyName = $("#company").val();
+			var email = $("#email").val();
+			var content = $("#count").val();
+			//	不能删除此行r
+
+			if (name == null || name == "") {
+				$('.toast').text('请输入姓名！').fadeIn();
+				setTimeout(() => {
+					$('.toast').fadeOut();
+				}, 1600);
+				return;
+			}
+
+			if (phone == null || phone == "") {
+				$('.toast').text('请输入电话！').fadeIn();
+				setTimeout(() => {
+					$('.toast').fadeOut();
+				}, 1600);
+				return;
+			}
+			if (companyName == null || companyName == "") {
+				$('.toast').text('请输入公司名称！').fadeIn();
+				setTimeout(() => {
+					$('.toast').fadeOut();
+				}, 1600);
+				return;
+			}
+			if (email == null || email == "") {
+				$('.toast').text('请输入邮箱！').fadeIn();
+				setTimeout(() => {
+					$('.toast').fadeOut();
+				}, 1600);
+				return;
+			}
+			if (content == null || content == "") {
+				$('.toast').text('请输入意见回馈！').fadeIn();
+				setTimeout(() => {
+					$('.toast').fadeOut();
+				}, 1600);
+				return;
+			}
+			var data = {
+				"name": name,
+				"phone": phone,
+				"companyName": companyName,
+				"email": email,
+				"content": content,
+			}
+			$.ajax({
+				type: "post",
+				url: "/customer/webSiteOpinionCollect",
+				dataType: "json",
+				data: data,
+				success: function (data) {
+					alert("提交成功，感谢您的留言。")
+				},
+				error: function () {
+					alert("您的网络不好请稍后重试!");
+					return;
+				},
+
+			});
+
+		}
+		</script>
 	</body>
 </html>

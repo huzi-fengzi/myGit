@@ -39,13 +39,6 @@ function submitForm() {
 				}, 1600);
 				return;
 			}
-			if (email == null || email == "") {
-				$('.toast').text('请输入邮箱！').fadeIn();
-				setTimeout(() => {
-					$('.toast').fadeOut();
-				}, 1600);
-				return;
-			}
 			if (content == null || content == "") {
 				$('.toast').text('请输入意见回馈！').fadeIn();
 				setTimeout(() => {

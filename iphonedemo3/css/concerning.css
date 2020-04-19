@@ -106,30 +106,42 @@
 	font-size: 0.2rem;
 	color: #666666;
 	margin-bottom: 0.76rem;
+	display: flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	align-items: center;
+	
 }
 .ul_li {
-	float: left;
-	width: 2.49rem;
+	/* float: left; */
+	width: 2.5rem;
 	height: 1.0rem;
 	text-align: center;
 	border-right: 0.01rem solid #bfbfbf;
+	box-sizing: border-box;
 }
 .ul_li:last-child {
 	border-right: 0;
 }
 
-.main_inner2>ul li p:first-child {
-	font-size: 0.34rem;
+.ul_li p:first-child {
+	font-size: 0.44rem;
 	color: #333333;
 }
-
-.main_inner2>div {
+.concer_img_flex{
+	display: flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	align-items: center;
 	width: 6.8rem;
 	height: 2.2rem;
 	margin: 0 auto;
 }
 
-.main_inner2>div img {
+
+.concer_img_flex img {
 	width: 3.4rem;
 	height: 2.2rem;
 }
