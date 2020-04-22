@@ -61,12 +61,12 @@
 
 .main_b_img{
 	width: 6.24rem;
-	height: 2.62rem;
+	height: 3.3rem;
 	background: #f6f6f6;
-	padding-top: 0.58rem;
+	/* padding-top: 0.58rem; */
 }
 .main_b_img img{
-	height: 2.15rem;
+	height: 3.3rem;
 	margin: 0 auto;
 }
 

@@ -257,7 +257,7 @@ body{
 	display: none;
 }
 
-.about_btn1 {
+.about_btn1,.about_btn_1 {
 	color: #33c8c9;
 }
 .toast {

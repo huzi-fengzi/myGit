@@ -54,8 +54,8 @@
 	margin-bottom: 1.0rem;
 }
 
-.main .main_inner1>p {
-	display: block;
+/* .main .main_inner1>p { */
+.concer_main1_p{
 	font-size: 0.24rem;
 	-webkit-text-size-adjust:0.24rem;
 	text-size-adjust: 0.24rem;
