@@ -30,7 +30,6 @@
 }
 
 .main_inner>h3 {
-	text-size-adjust: none;
 	font-size: 0.36rem;
 	line-height: 0.36rem;
 	color: #333333;
@@ -38,10 +37,10 @@
 }
 
 .main_inner>h4 {
-	text-size-adjust: 0.22rem;
-	font-size: 0.22rem;
-	line-height: 0.22rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
 	color: #666666;
+	color: red;
 	text-align: center;
 }
 
