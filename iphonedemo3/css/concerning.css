@@ -17,7 +17,8 @@
 
 .main {
 	width: 7.5rem;
-	min-height: 39.64rem;
+	/* min-height: 39.64rem; */
+	min-height: 60rem;
 	max-height: 100000rem;
 }
 
