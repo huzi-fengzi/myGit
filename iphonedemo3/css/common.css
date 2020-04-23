@@ -10,6 +10,7 @@
 	padding: 0;
 	/* font-family:arial,"微软雅黑"; */
 	outline: none;
+	-webkit-text-size-adjust: none;
 }
 :focus,input::-moz-focus-inner, button::-moz-focus-inner{
     outline: 0;

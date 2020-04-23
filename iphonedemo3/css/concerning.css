@@ -40,7 +40,6 @@
 	font-size: 0.24rem;
 	line-height: 0.24rem;
 	color: #666666;
-	color: red;
 	text-align: center;
 }
 
@@ -56,18 +55,12 @@
 /* .main .main_inner1>p { */
 .concer_main1_p{
 	font-size: 0.24rem;
-	-webkit-text-size-adjust:0.24rem;
-	text-size-adjust: 0.24rem;
 	line-height: 0.44rem;
 	color: #666666;
 	border-top: 0.01rem solid #ebebeb;
 	padding: 0.54rem 0.47rem 0.5rem 0.45rem;
 }
-/* .about_btn_1{
-	font-size: 0.24rem;
-	-webkit-text-size-adjust:0.24rem;
-	text-size-adjust: 0.24rem;
-} */
+
 .main_inner1>img {
 	width: 6.9rem;
 	height: 2.9rem;
@@ -105,7 +98,6 @@
 	
 }
 .ul_li {
-	/* float: left; */
 	width: 2.5rem;
 	height: 1.0rem;
 	text-align: center;
