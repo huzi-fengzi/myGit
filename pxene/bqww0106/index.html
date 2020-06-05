@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank">
+		<meta name="format-detection" content="telephone=no" />
+		<meta itemprop="name" content="购威旺M50F 抢万元红包">
+		<!--<meta itemprop="description" name="description" content="北汽威旺M50F 最高万元红包开抢啦！">-->
+		<title>购威旺M50F 抢万元红包</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<div id='wx_pic' style='margin:0 auto;display:none;'>
+			<img src="img/title.jpg"/>
+		</div>
+		<script>
+			var _pxe = _pxe || [];
+			var _pxe_id = '4a773bd3-d964-4155-a302-098f509d6448';
+			(function() {
+				var pxejs = document.createElement('script');
+				var _pxejsProtocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+				pxejs.src = _pxejsProtocol + '//img.pxene.com/pxene.js';
+				var one = document.getElementsByTagName('script')[0];
+				one.parentNode.insertBefore(pxejs, one);
+			})();
+		</script>
+		<script type="text/javascript">
+			//自适应监测屏幕宽度
+			function setRemSize() {
+				var oWidth = document.documentElement.clientWidth / 7.5 + "px";
+				document.documentElement.style.fontSize = oWidth;
+			};
+			setRemSize();
+			window.addEventListener("resize", setRemSize, false);
+		</script>
+		
+	</head>
+
+	<body>
+		<!--头图-->
+		<div class="head">
+			<img src="img/xue1.png" class="xue1"/>
+			<img src="img/xue2.png" class="xue2"/>
+			<img src="img/xue1.png" class="xue3"/>
+			<img src="img/xue2.png" class="xue4"/>
+		</div>
+		<img src="img/head1.png" class="head1" />
+		<!--红包-->
+		<img src="img/HB1.png" class="HB1"/>
+		<img src="img/HB2.png" class="HB2"/>
+		<img src="img/HB3.png" class="HB3"/>
+		<img src="img/HB4.png" class="HB4"/>
+		<img src="img/HB5.png" class="HB5"/>
+		<img src="img/HB6.png" class="HB6"/>
+		<img src="img/HB8.png" class="HB8"/>
+		<!--滑动-->
+		<img src="img/huadong.png" class="huadong"/>
+		<div class="hd1" id="hd1"></div>
+		<!--预约试驾-->
+		<div class="LeaveInformation">
+			<input type="text" name="name" id="name" value="" />
+			<input type="text" name="tel" id="tel" value="" />
+			<select name="favoritemodel" id="favoritemodel">
+				<option value=""></option>
+				<option value="M50F1.3T">M50F1.3T</option>
+				<option value="M50F1.5L">M50F1.5L</option>
+			</select>
+			<select name="province" id="province"></select>
+			<select name="city" id="city"></select>
+			<select name="dealername" id="dealername"></select>
+			<select name="dealercode" id="dealercode" style="display: none;"></select>
+			<select name="sales" id="sales" style="display: none;"></select>
+			<input type="checkbox" checked="checked" name="checked" id="checked" value="" />
+			<button class="btn" onclick="submitForm()"></button>
+		</div>
+		<div class="video1">
+			<video id="vio1" poster="img/video1.jpg" preload="metadata" controls="controls" src="../video/bqww.mp4">
+				浏览器不支持 video直接播放
+				<!--，点击这里下载视频： <a href="myvideo.webm">下载视频</a>-->
+			</video>
+		</div>
+		<!--精美车图-->
+		<div id="swiper-container2">
+			<div id="swiper-wrapper2">
+				<div class="swiper-slide"><img src="img/banner-1.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-2.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-3.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-4.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-5.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-6.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-7.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-8.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-9.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-10.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-1.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner-2.jpg" /></div>
+			</div>
+			<div id="current">
+				<img src="img/banner-10.jpg" />
+			</div>
+			<div class="zhao1"></div>
+			<div class="zhao2"></div>
+			<div id="swiper-button-next"></div>
+			<div id="swiper-button-prev"></div>
+		</div>		
+		<img src="img/RW.png" class="RW"/>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>	
+		<script type="text/javascript" src="js/linkage.js"></script>
+		<script type="text/javascript" src="js/dealer.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

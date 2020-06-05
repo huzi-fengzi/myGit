@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+<table id="result">
+    <tr style="color:#ff0000">
+        <td>u_id</td>
+        <td>project</td>
+        <td>u_bid</td>
+        <td>u_mapid</td>
+        <td>u_name</td>
+        <td>u_gender</td>
+        <td>u_tel</td>
+        <td>u_favoritemodel</td>
+        <td>u_province</td>
+        <td>u_city</td>
+        <td>u_dealername</td>
+        <td>u_dealercode</td>
+        <td>u_scheduledtime</td>
+        <td>u_status</td>
+        <td>u_budget</td>
+        <td>u_from</td>
+        <td>addtime</td>
+        <td>u_address</td>
+        <td>u_email</td>
+        <td>u_hobby</td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "POST",
+            async: false,
+            url: getRootPath() + "/cpa.do",
+            dataType: "json",
+            data: {
+                "project": "bqww0106"
+            },
+            success: function (data) {
+                for (var key in data) {
+                    var _html = "<tr><td>" + data[key].id + "</td>" +
+                            "<td>" + data[key].project + "</td>" +
+                            "<td>" + data[key].bid + "</td>" +
+                            "<td>" + data[key].mapid + "</td>" +
+                            "<td>" + data[key].name + "</td>" +
+                            "<td>" + data[key].gender + "</td>" +
+                            "<td>" + data[key].tel + "</td>" +
+                            "<td>" + data[key].favoriteModel + "</td>" +
+                            "<td>" + data[key].province + "</td>" +
+                            "<td>" + data[key].city + "</td>" +
+                            "<td>" + data[key].dealerName + "</td>" +
+                            "<td>" + data[key].dealerCode + "</td>" +
+                            "<td>" + data[key].scheduledTime + "</td>" +
+                            "<td>" + data[key].status + "</td>" +
+                            "<td>" + data[key].budget + "</td>" +
+                            "<td>" + data[key].from + "</td>" +
+                            "<td>" + data[key].address + "</td>" +
+                            "<td>" + data[key].email + "</td>" +
+                            "<td>" + data[key].hobby + "</td>" +
+                            "<td>" + data[key].addTime + "</td></tr>";
+
+                    $("#result").append(_html);
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
