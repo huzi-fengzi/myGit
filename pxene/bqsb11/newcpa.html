@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>留资信息</title>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+<table id="result" border="1" style="width: 100%">
+    <tr style="color:#ff0000">
+        <!-- <td>u_id</td> -->
+        <td>项目名称</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>手机</td>
+        <td>省份</td>
+        <td>城市</td>
+        <td>经销商</td>
+        <td>意向车型</td>
+        <td>购车预算</td>
+        <td>购车时间</td>
+        <td>时间</td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    $(function () {
+        function FormatDate (strTime) {
+            try {
+                var now = new Date(strTime);
+                var year=now.getFullYear(); 
+                var month=now.getMonth()+1; 
+                var date=now.getDate(); 
+                var hour=now.getHours(); 
+                var minute=now.getMinutes(); 
+                var second=now.getSeconds(); 
+                return year+"-"+month+"-"+date; 
+			} catch (e) {
+				return strTime;
+			}
+    	}
+        $.ajax({
+            type: "POST",
+            async: false,
+            url: getRootPath() + "/cpa.do",
+            dataType: "json",
+            data: {
+                "project": "bqsb11"
+            },
+            success: function (data) {
+                for (var key in data) {
+                    var _html = 
+                        "<tr>"+
+                            "<td>" + '北京汽车' + "</td>" +
+                            "<td>" + data[key].name + "</td>" +
+                            "<td>" + data[key].gender + "</td>" +
+                            "<td>" + data[key].tel + "</td>" +
+                            "<td>" + data[key].province + "</td>" +
+                            "<td>" + data[key].city + "</td>" +
+                            "<td>" + data[key].dealerName + "</td>" +
+                            "<td>" + data[key].favoriteModel + "</td>" +
+                            "<td>" + data[key].budget + "</td>" +
+                            "<td>" + data[key].scheduledTime + "</td>" +
+                            "<td>" + FormatDate(data[key].addTime) + "</td>" +
+                        "</tr>";
+                    $("#result").append(_html);
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
